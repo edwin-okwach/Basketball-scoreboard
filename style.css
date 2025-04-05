@@ -1,0 +1,118 @@
+html {
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: black;
+}
+
+header {
+  border-top: 2px dotted orange;
+  border-bottom: 2px dotted orange;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+h1,
+h2 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: orange;
+  padding: 10px;
+}
+
+h1::before {
+  content: "🏀";
+}
+
+h1::after {
+  content: "🏀";
+}
+
+h2 {
+  color: white;
+}
+
+.scoreboard {
+  border-bottom: 1px dotted orange;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-score {
+  color: white;
+  text-align: center;
+}
+
+#guest-score {
+  color: white;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  background: black;
+  height: 50px;
+  width: 70px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.score {
+  color: white;
+}
+
+.home {
+  margin-right: 30px;
+}
+
+.home .one-point {
+  background: red;
+  color: black;
+}
+
+.home .two-point {
+  background: red;
+  color: black;
+}
+
+.home .three-point {
+  background: red;
+  color: black;
+}
+
+.away .one-point {
+  background: blue;
+  color: black;
+}
+
+.away .two-point {
+  background: blue;
+  color: black;
+}
+
+.away .three-point {
+  background: blue;
+  color: black;
+}
+
+.reset {
+  background: black;
+  color: orange;
+  padding-bottom: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid orange;
+  margin-left: 290px;
+}
